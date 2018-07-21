@@ -1,0 +1,56 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>AddServlet</servlet-name>
+    <servlet-class>servlet.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddServlet</servlet-name>
+    <url-pattern>/AddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>servlet.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>QueryStudentServlet</servlet-name>
+    <servlet-class>servlet.QueryStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QueryStudentServlet</servlet-name>
+    <url-pattern>/QueryStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ReviseServlet</servlet-name>
+    <servlet-class>servlet.ReviseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReviseServlet</servlet-name>
+    <url-pattern>/ReviseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RegistServlet</servlet-name>
+    <servlet-class>servlet.RegistServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistServlet</servlet-name>
+    <url-pattern>/RegistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DivPageServlet</servlet-name>
+    <servlet-class>servlet.DivPageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DivPageServlet</servlet-name>
+    <url-pattern>/DivPageServlet</url-pattern>
+  </servlet-mapping>
+    
+</web-app>
